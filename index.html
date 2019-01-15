@@ -15,87 +15,90 @@
             </head>
 
             <body>
-                <div class="container">
+                <div style="cursor:pointer">
+                        <div class="container">
 
-                    <!-- container for selecting the day of prayer -->
-                    <div id="select-div">
-                            <p style="margin-top: 10em" id="q2">
-                                <span>“I thirst.” – John 19:28</span>
-                            </p>
-                                    <br>
-                        <select id="form-select" class="selectpicker"
-                        style="
-                            padding: 0.5em 2em;
-                            margin-top:1em;
-                            max-width: 100% !important
-                            ;"
-                        ></select><br><br>
-                        <button id="form-submit" class="btn btn-default">
-                            <span class="ul"> Select </span>
-                        </button>
-                              
-                    </div><!-- select div -->
-
-                    <!-- about -->
-                    <div id="about-div">
-                            <h1 style="margin-top: 3em;">
-                                Father Mark and the Companions of the Cross</h1>
-                            <p> Fr. Mark Goring is a member of the Companions of the
-                              Cross, a new order of priests based in Ottawa, Ontario. To learn more about the priests &amp; seminarians, to
-                              discover the spirituality, brotherhood &amp; mission of the
-                              Companions of the Cross and how you can participate,
-                              and to find more prayer resources, please visit:<br>
-                              <a href="http://www.companionscross.org">
-                                www.companionscross.org</a></p><br>
-                                <h1> The 40-Day Challenge</h1>
-                                <p> This prayer guide will lead you into a personal
-                                    retlationship with the Holy trinity. God is our treasure.
-                                    And yet few people embark on on the adventure of seeking God.
-                                    Scripture promises that if we seek the Lord we will
-                                    find Him.
-                                </p><br><br>
-                                <button id="back" class="btn btn-default btn-lg">
-                                    <span class="ul">
-                                        <i class="fas fa-angle-left"></i>
-                                        Back
-                                    </span>
-                                </button>
+                                <!-- container for selecting the day of prayer -->
+                                <div id="select-div">
+                                        <p style="margin-top: 10em" id="q2">
+                                            <span>“I thirst.” – John 19:28</span>
+                                        </p>
+                                                <br>
+                                    <select id="form-select" class="selectpicker"
+                                    style="
+                                        padding: 0.5em 2em;
+                                        margin-top:1em;
+                                        max-width: 100% !important
+                                        ;"
+                                    ></select><br><br>
+                                    <button id="form-submit" class="btn btn-default">
+                                        <span class="ul"> Select </span>
+                                    </button>
+                                          
+                                </div><!-- select div -->
+            
+                                <!-- about -->
+                                <div id="about-div">
+                                        <h1 style="margin-top: 3em;">
+                                            Father Mark and the Companions of the Cross</h1>
+                                        <p> Fr. Mark Goring is a member of the Companions of the
+                                          Cross, a new order of priests based in Ottawa, Ontario. To learn more about the priests &amp; seminarians, to
+                                          discover the spirituality, brotherhood &amp; mission of the
+                                          Companions of the Cross and how you can participate,
+                                          and to find more prayer resources, please visit:<br>
+                                          <a href="http://www.companionscross.org">
+                                            www.companionscross.org</a></p><br>
+                                            <h1> The 40-Day Challenge</h1>
+                                            <p> This prayer guide will lead you into a personal
+                                                retlationship with the Holy trinity. God is our treasure.
+                                                And yet few people embark on on the adventure of seeking God.
+                                                Scripture promises that if we seek the Lord we will
+                                                find Him.
+                                            </p><br><br>
+                                            <button id="back" class="btn btn-default btn-lg">
+                                                <span class="ul">
+                                                    <i class="fas fa-angle-left"></i>
+                                                    Back
+                                                </span>
+                                            </button>
+                                            <br><br>
+                                            <p id="q1"><span>“For where your treasure is, there
+                                                    will your heart be also.” – Matthew 6:21</span></p>
+                                </div><!-- about div -->
+            
+                                <div id="title-div">
+                                    <h1
+                                    style="
+                                        font-size: 5em;
+                                        margin-top: 2em;
+                                        color: #444444;
+                                    "><!-- main title -->
+                                    Treasure in Heaven</h1>
+                                    <hr style="color:black">
+                                    <h2>A 40-Day, Ten Minutes a Day Prayer Guide</h2>
+                                    <h3>Written by Fr. Mark Goring, CC</h3>
+                                </div> <!-- Title -->
+            
                                 <br><br>
-                                <p id="q1"><span>“For where your treasure is, there
-                                        will your heart be also.” – Matthew 6:21</span></p>
-                    </div><!-- about div -->
+            
+                                <div id="btn-div" style="margin-bottom:2em">
+                                    <button id="begin" class="btn btn-default btn-lg">
+                                        <span class="ul">Begin Prayer</span>
+                                    </button>
+                                    <button id="about" class="btn btn-default btn-lg">
+                                        <span class="ul">About</span>
+                                    </button>
+                                </div>
+                            </div><!-- initial container-->
+            
+                            <div class="container parent" id="prayer-div">
+                                <div class="child">
+                                    <p id="p-target">
+                                    </p>
+                                </div>
+                            </div><!-- container for the prayers -->
+                </div>
 
-                    <div id="title-div">
-                        <h1
-                        style="
-                            font-size: 5em;
-                            margin-top: 2em;
-                            color: #444444;
-                        "><!-- main title -->
-                        Treasure in Heaven</h1>
-                        <hr style="color:black">
-                        <h2>A 40-Day, Ten Minutes a Day Prayer Guide</h2>
-                        <h3>Written by Fr. Mark Goring, CC</h3>
-                    </div> <!-- Title -->
-
-                    <br><br>
-
-                    <div id="btn-div" style="margin-bottom:2em">
-                        <button id="begin" class="btn btn-default btn-lg">
-                            <span class="ul">Begin Prayer</span>
-                        </button>
-                        <button id="about" class="btn btn-default btn-lg">
-                            <span class="ul">About</span>
-                        </button>
-                    </div>
-                </div><!-- initial container-->
-
-                <div class="container parent" id="prayer-div">
-                    <div class="child">
-                        <p id="p-target">
-                        </p>
-                    </div>
-                </div><!-- container for the prayers -->
 
                 <script
                     src="https://code.jquery.com/jquery-3.3.1.js"
