@@ -13,7 +13,7 @@ const DATA = {
     "prompts" : {
       "p0" : "In the Name of the Father, and of the Son, And of the Holy Spirit.",
       "p1" : "Holy Spirit teach me how to pray.",
-      "p2" : "Think of three things for which to ask the Lord  for forgiveness.",
+      "p2" : "Think of three things for which to ask the Lord for forgiveness.",
       "p3" : "Take a moment to thank the Lord for three things.",
       "p4" : "Take a moment and ask the Lord for three things.",
     },
