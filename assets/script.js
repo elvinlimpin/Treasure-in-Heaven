@@ -53,6 +53,17 @@ $(document).ready(()=>{
             })
         })
     })
+
+    $("#form-random").click(()=>{
+        let value = Math.floor((Math.random() * 40) + 1)
+                // initializes the prayer div
+                $("#select-div").fadeOut("slow", ()=>{
+                    $("#prayer-div").fadeIn(()=>{
+                        $("#p-target").fadeIn()
+                        startPrayer(value)
+                    })
+                })
+    })
 })
 
 function makeForm(){
